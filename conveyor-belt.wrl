@@ -191,7 +191,7 @@ DEF belt Humanoid{
   humanoidBody [
     DEF root Joint {
       jointType "fixed"
-      jointId 1
+      jointId 0
       rotation 0 0 1 1.57 
       ulimit [0.0 0.0 ]
       llimit [0.0 0.0 ]
@@ -203,7 +203,7 @@ DEF belt Humanoid{
         DEF WAIST Joint {
           jointType "crawler"
           jointAxis -1.0 0.0 0.0
-          jointId 2
+          jointId 1
           ulimit [0.0 0.0 ]
           llimit [0.0 0.0 ]
           rotorInertia 1.0
